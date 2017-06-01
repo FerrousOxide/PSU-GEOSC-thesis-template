@@ -1432,7 +1432,7 @@ minus3pt\let\@listi\@listI}%
 %    \begingroup\Large\begin{center}{\@title}\end{center}\endgroup
     \begingroup\normalfont\Large\begin{center}{\@title}\end{center}\endgroup
     \vss\vss\vss
-    \centerline{A Thesis in}
+    \centerline{A \iftoggle{masters}{Thesis}{Dissertation} in}
     \centerline{\@major}
     \centerline{by}
     \centerline{\@author}
@@ -1460,7 +1460,7 @@ minus3pt\let\@listi\@listI}%
 \vbox{
     \thispagestyle{empty}
     \begin{singlespace}
-    \hbox{We approve the thesis of \@author .}
+    \hbox{We approve the \iftoggle{masters}{thesis}{dissertation} of \@author .}
     \vskip 0.35in 
     \hbox{\null\hskip 3.9in Date of Signature}
     \ifx\@empty\@readerone \else \signrule
