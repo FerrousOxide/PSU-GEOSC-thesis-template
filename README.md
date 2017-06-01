@@ -17,4 +17,6 @@ To toggle between degrees (not so easy in real life): comment and uncomment the 
 
 The signature page is omitted (not necessary for format review), but is up on the Dept. of Graduate Studies web page. 
 
+In addition to the LaTeX template, I've included (from http://www.sas.psu.edu/penn-state-thesis-template/) a Word 2011 template, for those who would rather not learn TeX at the end of all things. Other formats are available at the link above.
+
 Best of luck, and please let me know if there are future updates needed!
